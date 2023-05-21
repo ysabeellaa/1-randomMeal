@@ -50,3 +50,14 @@ img {
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 768px) {
+    img{
+        width: 100%;
+    }
+
+    .div_bottom {
+        display: block;
+        
+    }
+}

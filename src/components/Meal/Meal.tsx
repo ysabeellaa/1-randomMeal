@@ -24,7 +24,7 @@ export default function Meal() {
                     fetchedMeasures.push(measure);
                 }
             }
-            console.log(data);
+            //console.log(data);
             setFood(data.meals);
             setIngredients(fetchedIngredients);
             setMeasures(fetchedMeasures);
